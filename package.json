@@ -13,7 +13,7 @@
     "cluster": "pm2 start server/src/server.js -i max",
     "deploy": "npm run server & npm run build --prefix client",
     "deploy-cluster": "npm run cluster & npm run build --prefix client",
-    "test": ""
+    "test": "npm run test --prefix server"
   },
   "keywords": [],
   "author": "",
