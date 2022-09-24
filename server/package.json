@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/server.js",
   "scripts": {
-    "test-watch": "jest src/routes/launches/launches.test.js",
+    "test-watch": "jest",
     "start": "nodemon src/server.js"
   },
   "keywords": [],
